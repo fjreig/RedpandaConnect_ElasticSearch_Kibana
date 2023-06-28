@@ -74,7 +74,9 @@ GET /topic_btc/_search
 
 ### 7. Crear un Dashboard
 
-Primero creamos un Dashboard con la siguiente configuración:
+Primero creamos un Data viwe dentro de la pestaña Management -> Stack Management -> Kibana -> Data views
+
+con la siguiente configuración:
 
 ![Alt text](kibana2.png?raw=true "Dashboard")
 
