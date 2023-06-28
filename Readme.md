@@ -2,14 +2,14 @@
 
 ### 0. Microservicios empleados
 
-| Microservicio      | Descripcion |
-| :----:             |    :----:   |
-| Redpanda Server    | Servidor Kafka donde se guardan los datos        |
-| Redpanda Console   | Plataforma web para monitorizar el servidor Kafka        |
-| Redpanda Connect   | Servidor de connectores sink y source        |
-| ElasticSearch      | BBDD donde se almacenan los datos para representarlos en Kibana        |
-| Kibana             | Dashboards para la representacion de datos almacenados en Elasticsearch       |
-| Distro             | Servidor Python que consulta el precio de instantaneo de varias criptomonedas y lo envia al servidor Kafka        |
+| Microservicio      | Descripcion |  GUI |
+| :----:             |    :----:   |    :----:   |
+| Redpanda Server    | Servidor Kafka donde se guardan los datos        | |
+| Redpanda Console   | Plataforma web para monitorizar el servidor Kafka        | http://localhost:8080 |
+| Redpanda Connect   | Servidor de connectores sink y source        | |
+| ElasticSearch      | BBDD donde se almacenan los datos para representarlos en Kibana        | http://localhost:5601/app/home#/ |
+| Kibana             | Dashboards para la representacion de datos almacenados en Elasticsearch       | |
+| Distro             | Servidor Python que consulta el precio de instantaneo de varias criptomonedas y lo envia al servidor Kafka        | |
 
 
 ### 1. Desplegar contenedores
