@@ -54,6 +54,10 @@ Mostrar registros del indice:
 
 #### 6. Querys desde Kibana
 
+Desde Management -> Dev tools
+
+![Alt text](kibana1.png?raw=true "query")
+
 ```
 GET /topic_btc/_search
 {
