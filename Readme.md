@@ -30,6 +30,14 @@ Accedemos a http://localhost:8080/connect-clusters/local-connect-cluster y añad
 
 ### 5. Consultar la BBDD
 
-``` curl 'http://localhost:9200/topic_btc/_search' ```
+Listar indices:
+
+```curl 'http://localhost:9200/_cat/indices' ```
+
+Mostrar número de registros del indice:
 
 ``` curl 'http://localhost:9200/topic_btc/_count' ```
+
+Mostrar registros del indice:
+
+``` curl 'http://localhost:9200/topic_btc/_search' ```
