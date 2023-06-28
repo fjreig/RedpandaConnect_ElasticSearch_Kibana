@@ -8,7 +8,7 @@
 | Redpanda Console   | Plataforma web para monitorizar el servidor Kafka        |
 | Redpanda Connect   | Servidor de connectores sink y source        |
 | ElasticSearch      | BBDD donde se almacenan los datos para representarlos en Kibana        |
-| Kibana             | Dashboards        |
+| Kibana             | Dashboards para la representacion de datos almacenados en Elasticsearch       |
 | Distro             | Servidor Python que consulta el precio de instantaneo de varias criptomonedas y lo envia al servidor Kafka        |
 
 
@@ -16,4 +16,10 @@
 
 ```docker compose up -d```
 
+### 2. Comprobamos el estado del cluster de Kafka
+
+```docker exec -it redpanda rpk cluster info```
+
 ### 2. Cargar configuracion sink a Redpanda Connect
+
+Accedemos a http://localhost:8080/connect-clusters/local-connect-cluster y añadimos un nuevo connector del tipo ElasticsearchSinkConnector
