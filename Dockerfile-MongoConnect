@@ -1,0 +1,13 @@
+FROM confluentinc/cp-kafka-connect:latest
+
+RUN confluent-hub install --no-prompt mongodb/kafka-connect-mongodb:latest
+RUN confluent-hub install --no-prompt confluentinc/kafka-connect-elasticsearch:latest
+RUN confluent-hub install --no-prompt questdb/kafka-questdb-connector:latest
+RUN confluent-hub install --no-prompt confluentinc/kafka-connect-cassandra:latest
+RUN confluent-hub install --no-prompt confluentinc/kafka-connect-mqtt:latest
+RUN confluent-hub install --no-prompt confluentinc/kafka-connect-prometheus-metrics:latest
+RUN confluent-hub install --no-prompt confluentinc/kafka-connect-rabbitmq-sink:latest
+RUN confluent-hub install --no-prompt jcustenborder/kafka-connect-redis:latest
+RUN confluent-hub install --no-prompt datastax/kafka-connect-cassandra-sink:latest
+
+ENV CONNECT_PLUGIN_PATH="/usr/share/java,/usr/share/confluent-hub-components"

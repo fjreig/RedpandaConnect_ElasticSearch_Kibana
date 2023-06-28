@@ -1,0 +1,12 @@
+{
+    "name": "elasticsearch-sink-connector",
+    "connector.class" : "io.confluent.connect.elasticsearch.ElasticsearchSinkConnector",
+    "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+    "value.converter.schemas.enable": "false",
+    "tasks.max": 1,
+    "topics": "topic_BTC",
+    "key.ignore" : "true",
+    "schema.ignore": "true",
+    "connection.url" : "http://elasticsearch:9200",
+    "type.name": "_doc"
+}
