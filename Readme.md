@@ -52,7 +52,7 @@ Mostrar registros del indice:
 
 ``` curl 'http://localhost:9200/topic_btc/_search' ```
 
-#### 6. Querys desde Kibana
+### 6. Querys desde Kibana
 
 Desde Management -> Dev tools
 
@@ -71,3 +71,10 @@ GET /topic_btc/_search
     ]
 }
 ```
+
+### 7. Crear un Dashboard
+
+Primero creamos un Dashboard con la siguiente configuración:
+
+![Alt text](kibana2.png?raw=true "Dashboard")
+
