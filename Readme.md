@@ -4,12 +4,12 @@
 
 | Microservicio      | Descripcion |
 | :----:             |    :----:   |
-| Redpanda Server    | Title       |
-| Redpanda Console   | Text        |
-| Redpanda Connect   | Text        |
-| ElasticSearch      | Text        |
-| Kibana             | Text        |
-| Distro             | Text        |
+| Redpanda Server    | Servidor Kafka donde se guardan los datos        |
+| Redpanda Console   | Plataforma web para monitorizar el servidor Kafka        |
+| Redpanda Connect   | Servidor de connectores sink y source        |
+| ElasticSearch      | BBDD donde se almacenan los datos para representarlos en Kibana        |
+| Kibana             | Dashboards        |
+| Distro             | Servidor Python que consulta el precio de instantaneo de varias criptomonedas y lo envia al servidor Kafka        |
 
 
 ### 1. Desplegar contenedores
