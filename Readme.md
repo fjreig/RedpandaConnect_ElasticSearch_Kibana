@@ -28,9 +28,11 @@
 
 Accedemos a http://localhost:8080/connect-clusters/local-connect-cluster 
 
-![Alt text](redpanda1.png?raw=true "Title")
+![Alt text](redpanda1.png?raw=true "Redpanda Connect")
 
 y añadimos un nuevo connector del tipo ElasticsearchSinkConnector
+
+![Alt text](redpanda2.png?raw=true "Elastic")
 
 ### 5. Consultar la BBDD
 
