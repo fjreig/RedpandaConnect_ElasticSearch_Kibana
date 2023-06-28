@@ -7,7 +7,7 @@
 | Redpanda Server    | Servidor Kafka donde se guardan los datos        | |
 | Redpanda Console   | Plataforma web para monitorizar el servidor Kafka        | http://localhost:8080 |
 | Redpanda Connect   | Servidor de connectores sink y source        | |
-| ElasticSearch      | BBDD donde se almacenan los datos para representarlos en Kibana        | http://localhost:5601/app/home#/ |
+| ElasticSearch      | BBDD donde se almacenan los datos para representarlos en Kibana        | http://localhost:5601 |
 | Kibana             | Dashboards para la representacion de datos almacenados en Elasticsearch       | |
 | Distro             | Servidor Python que consulta el precio de instantaneo de varias criptomonedas y lo envia al servidor Kafka        | |
 
