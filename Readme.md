@@ -41,3 +41,19 @@ Mostrar número de registros del indice:
 Mostrar registros del indice:
 
 ``` curl 'http://localhost:9200/topic_btc/_search' ```
+
+#### 6. Querys desde Kibana
+
+```
+GET /topic_btc/_search
+{
+    "from": 0,
+    "size": 5,
+    "sort": [{
+            "fecha": {
+                "order": "desc"
+            }
+        }
+    ]
+}
+```
