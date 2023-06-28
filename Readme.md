@@ -1,4 +1,4 @@
-# Ejemplo de envio de datos entre Kafka y Elasticsearch + Kibana
+# Ejemplo de envio de datos entre Kafka y Elasticsearch
 
 ### 0. Microservicios empleados
 
