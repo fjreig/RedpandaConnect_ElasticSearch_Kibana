@@ -34,6 +34,10 @@ y añadimos un nuevo connector del tipo ElasticsearchSinkConnector
 
 ![Alt text](redpanda2.png?raw=true "Elastic")
 
+y añadimos la siguiente configuración que podemos encontrar en el fichero elastic_connect.json
+
+![Alt text](redpanda3.png?raw=true "json")
+
 ### 5. Consultar la BBDD
 
 Listar indices:
