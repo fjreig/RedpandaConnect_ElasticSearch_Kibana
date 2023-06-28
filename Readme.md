@@ -56,6 +56,8 @@ Mostrar registros del indice:
 
 Desde Management -> Dev tools
 
+Consultar los ultimos 5 valores registrados
+
 ![Alt text](kibana1.png?raw=true "query")
 
 ```
