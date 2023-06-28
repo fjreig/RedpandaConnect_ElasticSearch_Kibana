@@ -24,6 +24,10 @@
 
 ``` curl 'http://localhost:9200' ```
 
-### 2. Cargar configuracion sink a Redpanda Connect
+### 4. Cargar configuracion sink a Redpanda Connect
 
 Accedemos a http://localhost:8080/connect-clusters/local-connect-cluster y añadimos un nuevo connector del tipo ElasticsearchSinkConnector
+
+### 5. Consultar la BBDD
+
+``` curl 'http://localhost:9200/news-reports/_search' | jq ```
