@@ -30,4 +30,6 @@ Accedemos a http://localhost:8080/connect-clusters/local-connect-cluster y añad
 
 ### 5. Consultar la BBDD
 
-``` curl 'http://localhost:9200/news-reports/_search' | jq ```
+``` curl 'http://localhost:9200/topic_btc/_search' ```
+
+``` curl 'http://localhost:9200/topic_btc/_count' ```
