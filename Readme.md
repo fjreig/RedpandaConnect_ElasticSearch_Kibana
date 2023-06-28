@@ -22,7 +22,7 @@
 
 ### 3. Comprobamos el estado de la BBDD
 
-``` curl 'http://localhost:9200' ````
+``` curl 'http://localhost:9200' ```
 
 ### 2. Cargar configuracion sink a Redpanda Connect
 
