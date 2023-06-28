@@ -102,7 +102,7 @@ services:
       - redpanda_network
     build:
       context: .
-      dockerfile: Dockerfile-MongoConnect
+      dockerfile: Dockerfile-RedpandaConnect
     depends_on:
       - redpanda
     ports:
